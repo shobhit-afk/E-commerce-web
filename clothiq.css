@@ -1,0 +1,477 @@
+body {
+  font-family: 'Montserrat', Nunito;
+}
+
+img.logo {
+    margin-top: 22px;
+  width: 220px;
+  height: auto;
+  margin-left: -60px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #e5c4e5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  height: 70px;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#navbar {
+  margin-right: -65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+/* center*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #e99ad9;
+  height: 70px;
+}
+
+#hero {
+  background-image: url("hero22.png");
+  height: 90vh;
+  /* full screen height */
+  width: 100%;
+
+  background-size: cover;
+  /* image full cover kare */
+  background-position: top 25% right 0;
+  /* image center rahe */
+
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero h4 {
+  transform: translateY(20px);
+}
+
+#hero h2 {
+  transform: translateY(-30px);
+  font-size: 40px;
+}
+
+#hero h1 {
+  transform: translateY(-90px);
+  font-size: 50px;
+  color: #088178;
+
+}
+
+#hero p {
+  transform: translateY(-130px);
+}
+
+#hero button {
+  transform: translateY(-120px);
+}
+
+#hero button {
+  background-image: url("button.png");
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  padding: 14px 80px 14px 70px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700px;
+  font-size: 15px;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+button.normal{
+    margin-top: -10px; 
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000000;
+  background-color:#fff ;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition:0.2sec ;
+}
+.fe-box img {
+  width: 140px;
+  height: auto;
+  margin-bottom: -20px;
+}
+
+#feature .fe-box {
+  width: 180px;
+  padding: 6px 17px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+  border: 1.1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0px;
+  transition: 0.3s;
+}
+
+#feature .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.3);
+}
+
+.fe-box {
+  text-align: center;
+}
+
+.fe-box h6 {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  /* value badha ke aur upar kar sakte ho */
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: pink;
+}
+
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#product1{
+  text-align: center;
+}
+
+#product1 .pro-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content:center;
+}
+
+#product1 .pro{
+  width: 22%;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  margin: 15px 0;
+  transition: 0.2s ease;
+}
+
+#product1 .pro:hover{
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.10);
+}
+
+#product1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product1 span{
+  font-size: 10px;
+  color: grey;
+}
+
+#product1 h5{
+  margin: 10px;
+}
+
+#product1 .star{
+  margin: 10px;
+}
+
+.star i{
+  color: gold;
+}
+
+#product1 h4{
+  margin: 10px;
+  color: #088178;
+  background-color: #e8f6ea;
+  padding: 5px 70px;
+  display: inline-block;
+  border-radius: 7px;
+}
+
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url(clothiq\ banner.png);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+#banner h4{
+  font-size: 16px;
+  color: white;
+  margin-bottom: 5px;   /* gap kam karega */
+}
+
+#banner h1{
+  font-size: 30px;
+  color: white;
+  margin-top: 0;        /* extra gap hata dega */
+}
+#banner h1 span{
+  color: rgb(0, 0, 0);
+  }
+
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner h4{
+  color: rgb(239, 234, 234);
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+#sm-banner h1{
+  color: #fff;
+margin-top: -16px;
+  line-height: 1.1;
+   font-size: 35px;
+  font-weight: 800;
+}
+
+#sm-banner span{
+  color: rgb(239, 234, 234) ;
+      margin-top: -16px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500px;
+  padding-bottom: 15px;
+}
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(girl\ holding\ a\ colorful\ bags.jpg);
+  width: 48%;
+  height: 50vh;
+  padding: 30px;
+  background-size: cover;
+  background-position: center;
+}
+button.white{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #ffffff;
+  background-color:transparent ;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition:0.2sec ;
+}
+#sm-banner .banner-box:hover button{
+  background-color: #088178;
+  border: 1px solid #088178;
+
+}
+#sm-banner .banner-box2{
+  background-image: url("tshirts banner.jpeg");
+}
+#early-access{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  align-items: center;
+  background-image: url(blue\ banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+#early-access h2{
+  font-size: 22px;
+  font-weight: 700px;
+  color:#ffff;
+}
+#early-access p{
+  font-size: 14px;
+  font-weight: 700px;
+  color:#cdcaca;
+}
+#early-access input{
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border:1px solid transparent ;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#early-access button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #088178;
+  color: #ffffff;
+  white-space: nowrap;
+  margin: 0px;
+
+}
+#early-access .form{
+  display: flex;
+  width: 40%;
+}
+#product2{
+  text-align: center;
+}
+
+#product2 .pro-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content:center;
+}
+
+#product2 .pro{
+  width: 22%;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  margin: 15px 0;
+  transition: 0.2s ease;
+}
+
+#product2 .pro:hover{
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.10);
+}
+
+#product2 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product2 span{
+  font-size: 10px;
+  color: grey;
+}
+
+#product2 h5{
+  margin: 10px;
+}
+
+#product2 .star{
+  margin: 10px;
+}
+
+.star i{
+  color: gold;
+}
+
+#product2 h4{
+  margin: 10px;
+  color: #088178;
+  background-color: #e8f6ea;
+  padding: 5px 70px;
+  display: inline-block;
+  border-radius: 7px;
+}
+
+
+.footer{
+background:#ffffff;
+color:rgb(0, 0, 0);
+padding:40px 80px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.footer-col h3{
+color:#000000;
+margin-bottom:15px;
+}
+
+.footer-col p{
+margin:8px 0;
+font-size:15px;
+}
+
+.footer-col img{
+margin-top:10px;
+height:40px;
+}
+
+.social i{
+margin-right:10px;
+font-size:20px;
+cursor:pointer;
+}
